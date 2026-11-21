@@ -1289,8 +1289,8 @@ function getNameBySlug(slug) {
 /** Build image path from folder and slug */
 function imgPath(folder, slug, ext) {
   ext = ext || (folder === 'characters' ? 'png' : 'jpg');
-  return 'assets/images/' + folder + '/' + slug + '.' + ext;
+  return folder + '/' + slug + '.' + ext;
 }
 
 /** Placeholder path */
-var PLACEHOLDER = 'assets/images/ui/placeholder.svg';
+var PLACEHOLDER = 'ui/placeholder.svg';
