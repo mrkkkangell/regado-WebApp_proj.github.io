@@ -1,0 +1,49 @@
+=============================================================================
+YU-GI-OH! CARD IMAGES DIRECTORY
+Folder Path: assets/images/cards/
+=============================================================================
+
+Place all card portrait artwork here.
+• Recommended Dimensions: 421 x 614 px (or similar portrait card ratio)
+• File Format: .jpg
+• Every image filename must match the card's lowercase kebab-case slug:
+
+Featured Hero & Showcase Cards:
+- dark-magician.jpg
+- blue-eyes-white-dragon.jpg
+- red-eyes-black-dragon.jpg
+- exodia-the-forbidden-one.jpg
+- elemental-hero-neos.jpg
+- number-39-utopia.jpg
+- odd-eyes-dragon.jpg
+- stardust-dragon.jpg
+
+Browse Grid Cards (Alphabetical):
+- 100-year-awakening.jpg
+- 4-starred-ladybug-of-doom.jpg
+- 8-claws-scorpion.jpg
+- a-deal-with-dark-ruler.jpg
+- a-feather-of-the-phoenix.jpg
+- a-hero-emerges.jpg
+- a-legendary-ocean.jpg
+- a-wingbeat-of-giant-dragon.jpg
+- ad-changer.jpg
+- abaki.jpg
+- absorb-spell.jpg
+- absurd-stealer.jpg
+- acceleration-zone.jpg
+- accelight.jpg
+- ace-of-sword.jpg
+- ace-of-wand.jpg
+- acheche-archer.jpg
+- acheche-chambers.jpg
+- acorno.jpg
+- acrobat-monkey.jpg
+- active-guard.jpg
+- adamantine-sword-revival.jpg
+- adapt-to-adversity.jpg
+- advance-draw.jpg
+
+* Note: If any file is missing, the site automatically falls back to 
+  assets/images/ui/placeholder.svg with no broken image icons.
+=============================================================================

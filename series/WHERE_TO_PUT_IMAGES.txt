@@ -1,0 +1,22 @@
+=============================================================================
+YU-GI-OH! SERIES BANNERS DIRECTORY
+Folder Path: assets/images/series/
+=============================================================================
+
+Place all series banner artwork here (used on series.html).
+• Recommended Dimensions: 412 x 204 px (206 x 102 ratio @ 2x retina)
+• File Format: .jpg
+• Filenames:
+
+- yu-gi-oh.jpg
+- gx.jpg
+- 5ds.jpg
+- zexal.jpg
+- arc-v.jpg
+- vrains.jpg
+- sevens.jpg
+- go-rush.jpg
+
+* Note: If any file is missing, the site automatically falls back to 
+  assets/images/ui/placeholder.svg with no broken image icons.
+=============================================================================

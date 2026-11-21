@@ -1,0 +1,23 @@
+=============================================================================
+YU-GI-OH! HERO & LOGO IMAGES DIRECTORY
+Folders:
+  assets/images/hero/
+  assets/images/logo/
+=============================================================================
+
+HERO BACKGROUND ART (assets/images/hero/):
+• Dimensions: 1920 x 1080 px (16:9 widescreen)
+• Format: .jpg
+- hero-01.jpg  (Dark Magician background art)
+- hero-02.jpg  (Blue-Eyes White Dragon background art)
+- hero-03.jpg  (Red-Eyes Black Dragon background art)
+- hero-04.jpg  (Exodia the Forbidden One background art)
+
+SITE LOGO & FAVICON (assets/images/logo/):
+• Format: .png (transparent)
+- yugioh-logo.png  (Site logo in navigation bar)
+- favicon.png      (Browser tab icon)
+
+* Note: If any file is missing, the site automatically falls back to 
+  assets/images/ui/placeholder.svg or stylized text with no broken image icons.
+=============================================================================

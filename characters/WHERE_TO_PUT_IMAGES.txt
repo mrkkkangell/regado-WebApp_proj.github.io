@@ -1,0 +1,42 @@
+=============================================================================
+YU-GI-OH! CHARACTER IMAGES DIRECTORY
+Folder Path: assets/images/characters/
+=============================================================================
+
+Place all duelist / character portrait artwork here.
+• Recommended Dimensions: 340 x 480 px (or similar portrait ratio)
+• File Format: .png (transparent background preferred) or .jpg
+• Filenames must match the character's lowercase kebab-case slug:
+
+Duelists:
+- yami-yugi.png
+-yugi-muto .png
+- jaden-yuki.png
+- yusei-fudo.png
+- yuma-tsukumo.png
+- astral.png
+- yuya-sakaki.png
+- abidos-the-third.png
+- adrian-gecko.png
+- ai.png
+- akiza-izinski.png
+- alexis-rhodes.png
+- yusaku-fujiki-playmaker.png
+- yuga-ohdo.png
+- yudias-velgear.png
+- mai-valentine.png
+- joey-wheeler.png
+- seto-kaiba.png
+
+Supporting / Relatives & Allies:
+- solomon-muto.png
+- serenity-wheeler.png
+- mokuba-kaiba.png
+- ishizu-ishtar.png
+- mako-tsunami.png
+- tea-gardner.png
+- tristan-taylor.png
+
+* Note: If any file is missing, the site automatically falls back to 
+  assets/images/ui/placeholder.svg with no broken image icons.
+=============================================================================

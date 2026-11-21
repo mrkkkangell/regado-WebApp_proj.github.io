@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  =============================================================================
+  WHERE TO PUT IMAGES FOR THIS PAGE:
+  Series banner images go into: assets/images/series/
+  File format: .jpg (ratio 206x102, recommend 412x204 @ 2x)
+  Filenames:
+    - assets/images/series/yu-gi-oh.jpg
+    - assets/images/series/gx.jpg
+    - assets/images/series/5ds.jpg
+    - assets/images/series/zexal.jpg
+    - assets/images/series/arc-v.jpg
+    - assets/images/series/vrains.jpg
+    - assets/images/series/sevens.jpg
+    - assets/images/series/go-rush.jpg
+  =============================================================================
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Series - Yu-Gi-Oh! Official Site Recreation</title>
+  <link rel="icon" type="image/png" href="assets/images/logo/favicon.png" onerror="this.href='assets/images/ui/placeholder.svg';">
+  <!-- Bootstrap 5.3.x CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== 1. NAVIGATION BAR ===== -->
+  <header class="ygo-nav">
+    <div class="ygo-nav-container">
+      <a href="index.html" class="ygo-logo" aria-label="Yu-Gi-Oh! Home">
+        <img src="assets/images/logo/yugioh-logo.png" alt="Yu-Gi-Oh!" class="ygo-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+        <span class="ygo-logo-text" style="display:none;">Yu-Gi-Oh!</span>
+      </a>
+
+      <ul class="ygo-nav-links">
+        <li class="ygo-nav-item">
+          <a href="series.html" class="ygo-nav-link" aria-current="page">SERIES</a>
+        </li>
+        <li class="ygo-nav-item">
+          <a href="watch.html" class="ygo-nav-link">WATCH</a>
+        </li>
+        <li class="ygo-nav-item">
+          <a href="characters.html" class="ygo-nav-link">CHARACTERS</a>
+        </li>
+        <li class="ygo-nav-item">
+          <a href="cards.html" class="ygo-nav-link">CARDS</a>
+        </li>
+        <li class="ygo-nav-item">
+          <a href="news.html" class="ygo-nav-link">NEWS</a>
+        </li>
+      </ul>
+
+      <div class="ygo-login-link">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+      </div>
+
+      <button type="button" class="ygo-nav-toggler" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Toggle navigation">
+        &#9776;
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== 2. GRAY BAND WITH SERIES LOGOS ===== -->
+  <section class="gray-band">
+    <div class="gray-band-inner">
+      <h1 class="section-header-title mb-3">Series</h1>
+      <div class="series-logos-row">
+        <a href="#yu-gi-oh" class="series-logo-link">Yu-Gi-Oh!</a>
+        <a href="#gx" class="series-logo-link">GX</a>
+        <a href="#5ds" class="series-logo-link">5D's</a>
+        <a href="#zexal" class="series-logo-link">ZEXAL</a>
+        <a href="#arc-v" class="series-logo-link">ARC-V</a>
+        <a href="#vrains" class="series-logo-link">VRAINS</a>
+        <a href="#sevens" class="series-logo-link">SEVENS</a>
+        <a href="#go-rush" class="series-logo-link">GO RUSH!!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 3. GRADIENT RULE ===== -->
+  <div class="gradient-rule" role="separator"></div>
+
+  <!-- ===== 4. SERIES ROWS (Content Area on --paper) ===== -->
+  <main class="content-area">
+    <div class="content-area-inner" id="seriesList">
+      <!-- Rendered dynamically by JS from SERIES_DATA -->
+    </div>
+  </main>
+
+  <!-- ===== 5. FOOTER ===== -->
+  <footer class="ygo-footer">
+    <div class="ygo-footer-inner">
+      <div class="ygo-footer-brand">
+        <h3 class="ygo-footer-brand-title">KONAMI CROSS MEDIA NY, INC.</h3>
+        <p class="ygo-footer-brand-desc">
+          A member of the Konami Group, Konami Cross Media NY, Inc. is responsible for brand management, licensing, and marketing of the Yu-Gi-Oh! brand.
+        </p>
+      </div>
+
+      <div class="ygo-footer-links">
+        <div class="ygo-footer-col">
+          <a href="series.html" class="ygo-footer-link">SERIES</a>
+          <a href="watch.html" class="ygo-footer-link">WATCH</a>
+          <a href="characters.html" class="ygo-footer-link">CHARACTERS</a>
+          <a href="cards.html" class="ygo-footer-link">CARDS</a>
+          <a href="news.html" class="ygo-footer-link">NEWS</a>
+        </div>
+        <div class="ygo-footer-col">
+          <a href="#" class="ygo-footer-link">ABOUT</a>
+          <a href="#" class="ygo-footer-link">LICENSING</a>
+          <a href="#" class="ygo-footer-link">PRESS</a>
+          <a href="#" class="ygo-footer-link">CONTACT</a>
+        </div>
+      </div>
+
+      <div class="ygo-footer-social">
+        <div class="ygo-footer-social-title">Stay Connected</div>
+        <div class="ygo-footer-social-grid">
+          <a href="#" class="ygo-footer-social-link">Twitter</a>
+          <a href="#" class="ygo-footer-social-link">Facebook</a>
+          <a href="#" class="ygo-footer-social-link">YouTube</a>
+          <a href="#" class="ygo-footer-social-link">Instagram</a>
+          <a href="#" class="ygo-footer-social-link">Bluesky</a>
+          <a href="#" class="ygo-footer-social-link">Threads</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="ygo-footer-bottom">
+      <div class="ygo-footer-bottom-inner text-center">
+        <div>&copy;1996 Kazuki Takahashi &bull; &copy;2004 NAS &bull; TV TOKYO &bull; Student project recreation (ITE17) &bull; <a href="#">TERMS OF USE</a> | <a href="#">PRIVACY POLICY</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== 6. FLOATING MY DECK BADGE BUTTON ===== -->
+  <button type="button" class="deck-badge" aria-label="Open My Deck drawer">
+    <span>&#9733;</span>
+    <span class="deck-badge-count">0</span>
+  </button>
+
+  <!-- ===== 7. OFFCANVAS DRAWERS & MODALS ===== -->
+  <!-- Mobile Navigation Offcanvas -->
+  <div class="offcanvas offcanvas-end mobile-menu" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="mobileMenuLabel">Navigation</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <a href="series.html" class="mobile-menu-link" aria-current="page">SERIES</a>
+      <a href="watch.html" class="mobile-menu-link">WATCH</a>
+      <a href="characters.html" class="mobile-menu-link">CHARACTERS</a>
+      <a href="cards.html" class="mobile-menu-link">CARDS</a>
+      <a href="news.html" class="mobile-menu-link">NEWS</a>
+    </div>
+  </div>
+
+  <!-- My Deck Offcanvas -->
+  <div class="offcanvas offcanvas-end deck-offcanvas" tabindex="-1" id="deckOffcanvas" aria-labelledby="deckOffcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="deckOffcanvasLabel">My Deck (<span class="deck-badge-count">0</span>)</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="deck-list" id="deckList">
+        <!-- Rendered by JS -->
+      </ul>
+      <button type="button" class="deck-clear-btn" id="clearDeckBtn">Clear Deck</button>
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div class="modal fade login-modal" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Duelist Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="loginForm">
+            <div class="login-form-group">
+              <label for="loginUsername">Duelist Name</label>
+              <input type="text" id="loginUsername" placeholder="Enter your name" required>
+            </div>
+            <div class="login-form-group">
+              <label for="loginPass">Password</label>
+              <input type="password" id="loginPass" placeholder="••••••••" required>
+            </div>
+            <button type="submit" class="login-submit-btn">Enter Duel World</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toastContainer" class="toast-container position-fixed bottom-0 end-0 p-3"></div>
+
+  <!-- Bootstrap 5 Bundle JS (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Data & Script -->
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

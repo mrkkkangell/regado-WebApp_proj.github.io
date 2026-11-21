@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="421" height="614" viewBox="0 0 421 614">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b1f2e"/>
+      <stop offset="100%" stop-color="#0b0e17"/>
+    </linearGradient>
+  </defs>
+  <rect width="421" height="614" fill="url(#bg)" rx="16"/>
+  <circle cx="210" cy="280" r="40" fill="none" stroke="#8fc1ff" stroke-width="1.5" opacity=".3"/>
+  <path d="M195 270 L195 290 L220 280Z" fill="#8fc1ff" opacity=".3"/>
+  <text x="210" y="345" text-anchor="middle" font-family="'Inter','Segoe UI',sans-serif" font-size="13" fill="#8fc1ff" opacity=".5">Image not available</text>
+  <text x="210" y="365" text-anchor="middle" font-family="'Inter','Segoe UI',sans-serif" font-size="10" fill="#555">Add artwork to assets/images/</text>
+</svg>

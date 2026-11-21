@@ -1,0 +1,22 @@
+=============================================================================
+YU-GI-OH! NEWS BANNER IMAGES DIRECTORY
+Folder Path: assets/images/news/
+=============================================================================
+
+Place all news article banner images here.
+• Recommended Dimensions: 560 x 110 px or 16:9 widescreen (e.g. 560 x 315 px)
+• File Format: .jpg
+• Filenames must match each news article's slug:
+
+- all-new-yu-gi-oh-x-youtooz-collection.jpg
+- red-eyes-black-dragon-diorama-led-lamp.jpg
+- lego-ideas-x-yu-gi-oh.jpg
+- crocs-launches-first-collaboration.jpg
+- new-yu-gi-oh-tees-from-hypland.jpg
+- blazing-dominion-boosters-available-now.jpg
+- steady-hands-duelist-collection.jpg
+- lego-ideas-choose-your-favorite.jpg
+
+* Note: If any file is missing, the site automatically falls back to 
+  assets/images/ui/placeholder.svg with no broken image icons.
+=============================================================================
